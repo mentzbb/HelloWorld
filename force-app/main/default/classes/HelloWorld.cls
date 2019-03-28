@@ -11,13 +11,13 @@ public with sharing class HelloWorld
 
     }
 
-    public String SayHelloWorld()
+    public String sayHelloWorld()
     {
         // change this method to return Hello, World!
         return null;
     }
 
-    public String SayHelloWorldAndMore(String more)
+    public String sayHelloWorldAndMore(String more)
     {
         // change this method to combine Hello, World! 
         // and the more parameter and return the result

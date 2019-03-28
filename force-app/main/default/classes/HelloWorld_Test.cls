@@ -11,7 +11,7 @@ private class HelloWorld_Test
     static void TestSayHelloWorld()
     {
         HelloWorld hw=new HelloWorld();
-        String result=hw.SayHelloWorld();
+        String result=hw.sayHelloWorld();
 
         System.assertEquals('Hello, World!', result);
     }
@@ -20,7 +20,7 @@ private class HelloWorld_Test
     static void TestSayHelloWorldAndMore()
     {
         HelloWorld hw=new HelloWorld();
-        String result=hw.SayHelloWorldAndMore(' from Keir');
+        String result=hw.sayHelloWorldAndMore(' from Keir');
 
         System.assertEquals('Hello, World! from Keir', result);
     }
